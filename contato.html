@@ -30,19 +30,17 @@
                 </nav>
             </div>
         </header>
-            <div class="content">
-            <section class="titulo-articulos"><a href="#"><h1>Floyd Mayweather vs Manny Pacquiao este sábado 2 de mayo</h1></a>
-            <article class="articulo-articulos"><center><img src="Imagenes/pacquiaovsmayweather.jpg" alt="Pacquiao vs Mayweather"></center>
-           </article></section>
-           <section class="titulo-articulos"><a href="#"><h1>Saul Alvarez vs Miguel Cotto el 12 de septiembre</h1></a>
-            <article class="articulo-articulos"><center><img src="Imagenes/pacquiaovsmayweather.jpg" alt="Pacquiao vs Mayweather"></center>
-           </article></section>
-            </div>
-<aside>
-                    <h3>Articulos mas visitados</h3>
-                    <a href="#">Mayweather vs Pacquiao</a>
-                </aside>
-    <footer class="footer">
+        <form>
+            <label>Nombre Completo: </label>
+            <input type="text" id="nombre" placeholder="Nombre" name="nombre" required><br />
+            <label>Correo Electronico: </label>
+            <input type="email" id="email" name="email" required><br />
+            <label>Repetir Correo Electronico: </label>
+            <input  type="email" id="email_repetir" name="email_repetir" required oninput="check(this)"><br />
+            <label>Comenterio: </label>
+            <textarea id = "myTextArea"rows = "30" cols = "80"></textarea>
+        </form>
+            <footer class="footer">
         <p>Proyecto Final de HTML5 - Te hace falta ver más Bax - Jaime Negrete y Gabriel Rendón</p>
     </footer>
     </body>
