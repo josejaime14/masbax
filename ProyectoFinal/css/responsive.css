@@ -1,0 +1,31 @@
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+@media only screen and (max-width: 767px) {
+	header {margin-top: 0px;height:150px;}
+	header #logo{top:60px;}
+
+	nav .wrap-nav{top: 10px; left:10px; right:auto;}
+}
+
+@media only screen and (max-width: 479px) {
+
+	header{height: 170px;}
+	header #logo{top: 90px;}
+
+	nav .wrap-nav {position:relative; height: 37px; left:0px; top:0px;}
+	.menu{display:none;}
+	.minimenu{display:block;}
+}
