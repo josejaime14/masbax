@@ -2,9 +2,8 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
 mark, rp, rt, ruby, summary, time {display:inline;}
-input, textarea {border:0; padding:0; margin:0; outline: 0;}
 iframe {border:0; margin:0; padding:0;}
-input, textarea, select {margin:0; padding:0px;}
+select {margin:0; padding:0px;}
 
 html, body {width:100%; padding:0; margin:0;}
 body {background: #999999;color: #474747;font: 12px/25px Arial, Helvetica, sans-serif;}
@@ -131,6 +130,106 @@ footer .content{padding:15px}
 .tamanio .col-3-6{width:50%;}
 .tamanio .col-4-6{width:66.66%;}
 .tamanio .col-5-6{width:83.33%;}
+
+.comentario{
+	background-color: #eee;
+	width: 100%;
+	padding: 12px;
+	display: block;
+}
+
+.comentario-nombre{
+	padding: 10px;
+	font-size: 18px;
+	float: left;
+
+}
+
+.comentario-texto{
+	float: left;
+	padding: 10px;
+}
+
+/* Basic Grey */
+.contacto {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+}
+.contacto h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.contacto h1>span {
+    display: block;
+    font-size: 11px;
+}
+.contacto label {
+    display: block;
+    margin: 0px;
+}
+.contacto label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.contacto input[type="text"], .contacto input[type="email"], .contacto textarea, .contacto select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.contacto textarea{
+    padding: 5px 3px 3px 5px;
+}
+.contacto select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.contacto textarea{
+    height:100px;
+}
+.contacto .button {
+    background: #000;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.contacto .button:hover {
+    background: #C91A1A;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.tamanio{width:768px;}

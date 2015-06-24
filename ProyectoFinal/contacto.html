@@ -51,16 +51,23 @@
 							<h2><a href="#">Contáctanos</a></h2>
 						</div>
 						<div class="content">
-							<form>
-					            <label>Nombre Completo: </label>
-					            <input type="text" id="nombre" placeholder="Ingresa tu Nombre" name="nombre" required><br /><br />
-					            <label>Correo Electronico: </label>
-					            <input type="email" id="email" placeholder="Ingresa tu Emal" name="email" required><br /><br />
-					            <label>Repetir Correo Electronico: </label>
-					            <input  type="email" id="email_repetir" placeholder="Ingresa tu Emal" name="email_repetir" required oninput="check(this)"><br /><br />
-					            <label>Comenterio: </label>
-					            <textarea id="myTextArea" rows="12" cols="100"></textarea><br />
-					            <input type="submit" value="Enviar">
+							<form class="contacto">
+					            <label><span>Nombre :</span>
+					            	<input type="text" id="nombre" placeholder="Ingresa tu Nombre" name="nombre" required>
+					            </label>
+					            <label><span>Email:</span>
+					            	<input type="email" id="email" placeholder="Ingresa tu Email" name="email" required>
+					            </label>
+					            <label><span>Repetir Email:</span> 
+					            	<input  type="email" id="email_repetir" placeholder="Ingresa tu Email" name="email_repetir" required oninput="check(this)">
+					            </label>
+					            <label><span>Comentario: </span></label>
+					            	<textarea id="myTextArea" rows="12" cols="100"></textarea>
+					            </label>
+					            <label>
+					            <span>&nbsp;</span> 
+					            	<input type="submit" class="button" value="Enviar">
+					        	</label>
 					        </form>
 						</div>
 					</article>

@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<link href='./imagenes/favicon.ico' rel='icon' type='image/x-icon'/>
-    
+    <script type="text/javascript" src="scripts/postComment.js"></script>
 </head>
 <body>
 <header>
@@ -65,6 +65,16 @@
 								Your browser does not support the video tag.
 							</video><center>
 						</div>
+						<form class="contacto">
+					            <label>Nombre </label>
+					            <input type="text" placeholder="Ingresa tu Nombre" id="nombre" required><br />
+					            <label>Comentario: </label>
+					            <textarea id="comentario" rows="12" cols="100" required></textarea><br />
+					            <input type="button" class="button" value="Comentar" onclick="postComment();">
+					        </form>
+						<div id="comment-section">
+							<label>Comentarios </label>
+						</div>
 					</article>
 				</div>
 			</div>
@@ -108,4 +118,5 @@
 	</div>
 </footer>
 
-</body></html>
+</body>
+</html>
